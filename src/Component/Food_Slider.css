@@ -35,13 +35,15 @@
 
 .Food-box-link:hover {
   background-color: #e2dad3;
-  #food-img {
-    transform: scale(1);
-  }
-  .meal-name {
-    font-weight: bold;
-    transform: scale(1);
-  }
+}
+
+.Food-box-link #food-img:hover {
+  transform: scale(1);
+}
+
+.Food-box-link .meal-name:hover {
+  font-weight: bold;
+  transform: scale(1);
 }
 
 .food-img {
