@@ -95,14 +95,6 @@ p{
     }
 }
 
-@media (max-width: 1400px) {
-    
-}
-
-@media (max-width: 1200px) {
-    
-}
-
 @media (max-width: 992px) {
     .meal-content {
         flex-direction: column;

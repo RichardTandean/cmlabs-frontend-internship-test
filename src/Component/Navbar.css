@@ -37,14 +37,6 @@
     color: #F3EEEA;
 }
 
-@media (max-width: 1400px) {
-    
-}
-
-@media (max-width: 1200px) {
-    
-}
-
 @media (max-width: 992px) {
     .swiper {
         width: 550px !important;
@@ -59,10 +51,6 @@
     .navbar {
         padding: 1rem 0rem 1rem 0rem !important;
     }
-}
-
-@media (max-width: 576px) {
-    
 }
 
 @media (max-width: 400px) {

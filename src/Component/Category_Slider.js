@@ -1,4 +1,4 @@
-import React, { useRef, useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 
 //React Component
@@ -8,13 +8,11 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/grid';
 import 'swiper/css/pagination';
-import 'swiper/css/free-mode';
 
 import './Category_Slider.css';
 
 //Required Module
 import { Grid, Pagination } from 'swiper/modules';
-import { FreeMode } from 'swiper/modules';  
 
 const CategorySlider = () => {
   const [categories, setCategories] = useState([]);

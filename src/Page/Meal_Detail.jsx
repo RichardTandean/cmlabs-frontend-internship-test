@@ -4,7 +4,7 @@ import Navbar from "../Component/Navbar";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from "react-router-dom";
 
-const Meal_Detail = () => {
+const MealDetail = () => {
     const { mealID } = useParams();
     const meal_ID = mealID;
 
@@ -81,4 +81,4 @@ const Meal_Detail = () => {
     );
 };
 
-export default Meal_Detail;
+export default MealDetail;

@@ -3,7 +3,7 @@ import FoodSlider from "../Component/Food_Slider";
 import Navbar from "../Component/Navbar";
 import { useParams, Link } from "react-router-dom";
 
-const Category_Detail = () => {
+const CategoryDetail = () => {
     const { categoryName } = useParams();
     const [desc, setDesc] = useState();
 
@@ -16,7 +16,7 @@ const Category_Detail = () => {
                 const dataLength = data.length;
                 let desc = null;
                 for(let i = 0; i < dataLength; i++){
-                    if(data[i].strCategory == {categoryName}.categoryName) {
+                    if(data[i].strCategory === {categoryName}.categoryName) {
                         desc = data[i].strCategoryDescription;
                         break;
                     }
@@ -52,4 +52,4 @@ const Category_Detail = () => {
     )
 }
 
-export default Category_Detail;
+export default CategoryDetail;
