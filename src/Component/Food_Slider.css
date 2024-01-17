@@ -37,11 +37,11 @@
   background-color: #e2dad3;
 }
 
-.Food-box-link #food-img:hover {
+.Food-box-link:hover #food-img {
   transform: scale(1);
 }
 
-.Food-box-link .meal-name:hover {
+.Food-box-link:hover .meal-name {
   font-weight: bold;
   transform: scale(1);
 }

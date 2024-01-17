@@ -86,11 +86,11 @@ p{
     background-color: #e2dad3;
 }
 
-.Category-box #category-img:hover {
+.Category-box:hover #category-img {
     transform: scale(1);
 }
 
-.Category-box #category-img:hover {
+.Category-box:hover .category-name {
     transform: scale(1);
     font-weight: bold;
 }
