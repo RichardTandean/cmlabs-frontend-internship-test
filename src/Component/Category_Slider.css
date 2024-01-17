@@ -1,0 +1,149 @@
+@font-face {
+    font-family: 'Libre';
+    src: url('../font/LibreBaskerville-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'LibreBold';
+    src: url('../font/LibreBaskerville-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'LibreItalic';
+    src: url('../font/LibreBaskerville-Italic.ttf') format('truetype');
+}
+
+p{
+    margin-bottom: 0;
+}
+
+.slider-title {
+    display: flex;
+    justify-content: center;
+    font-family: 'Libre';
+}
+
+.swiper {
+    width: 850px;
+    height: 520px;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+.swiper-slide {
+    height: 240px !important;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F3EEEA;
+}
+
+.Category-box {
+    height: 200px;
+    width: 250px;
+    box-shadow: 2px 2px 10px 0px #0000001f;
+    color: black;
+    border-radius: 20px 20px 20px 20px;
+    padding: 20px;
+    align-items: center;
+    justify-content: end;
+    background-color: #F3EEEA;
+    transition: background-position 1s, filter 1s;
+    overflow: hidden;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.img-div {
+    height: 133px;
+}
+
+#category-img {
+    height: 100%;
+    width: auto;
+    border-radius: 20px;
+    transform: scale(0.9);
+    transition: transform 1s;
+}
+
+.category-name {    
+    margin-bottom: 0;
+    width: 100%;
+    transform: scale(0.9);
+    font-weight: normal;
+    transition: transform 1s;
+    font-family: 'Libre';
+    color: #776B5D;
+    text-align: center;
+}
+
+.Category-box:hover {
+    background-color: #e2dad3;
+    #category-img {
+        transform: scale(1);
+    }
+
+    .category-name {
+        transform: scale(1);
+        font-weight: bold;
+    }
+}
+
+@media (max-width: 1400px) {
+    
+}
+
+@media (max-width: 1200px) {
+    
+}
+
+@media (max-width:992px) {
+    .swiper {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width:576px) {
+    .swiper {
+        height: 450px;
+    }
+
+    .swiper-slide{
+        height: 200px !important;
+    }
+
+    .Category-box {
+        height: 180px;
+    }
+
+    .img-div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #category-img {
+        height: auto;
+        width: 100%;
+    }
+}
+
+@media (max-width: 400px) {
+    .slider-title {
+        font-size: 14px;
+    }
+    
+    .category-name {
+        font-size: 14px;
+    }
+}

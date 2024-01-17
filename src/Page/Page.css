@@ -1,0 +1,147 @@
+@font-face {
+    font-family: 'Libre';
+    src: url('../font/LibreBaskerville-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+p{
+    margin-bottom: 0;
+}
+
+.wrapper {
+    background-color: #F3EEEA;
+}
+
+.Heading-text {
+    flex-direction: column;
+    font-family: 'Libre';
+    align-items: center;
+    text-align: center;
+    color: #3d362e;
+    padding-top: 80px;
+}
+
+.content {
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+
+.Meal{
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+
+.meal-title {
+    font-family: 'Libre';
+}
+
+.meal-content {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Libre';
+    font-size: 16px;
+    gap: 50px;
+}
+
+#meal-img {
+    max-width: 500px;
+    border-radius: 20px;
+    max-height: 500px;
+}
+
+.content-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.video-tutorial {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Libre';
+}
+
+.back-button {
+    height: 50px;
+    width: 100px;
+    border: 1px solid #3d362e;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #3d362e;
+    font-family: 'Libre';
+    background-color: #F3EEEA;
+    transition: background-color 0.2s;
+    margin-top: 40px;
+}
+
+.back-button:hover {
+    cursor: pointer;
+    color: #F3EEEA;
+    background-color: #3d362e;
+}
+
+@media (max-height: 800px) {
+    .Heading-text {
+        padding-top: 40px;
+    }
+}
+
+@media (max-width: 1400px) {
+    
+}
+
+@media (max-width: 1200px) {
+    
+}
+
+@media (max-width: 992px) {
+    .meal-content {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px) {
+    .head-text {
+        font-size: 24px;
+    }
+
+    .subhead-text {
+        font-size: 18px;
+    }
+
+    .meal-title {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .head-text {
+        font-size: 16px;
+    }
+
+    .subhead-text {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 400px) {
+    .video-tutorial {
+        padding-top: 20px;
+    }
+
+    .back-button {
+        margin-top: 20px;
+        height: 40px;
+        width: 80px;
+    }
+}
